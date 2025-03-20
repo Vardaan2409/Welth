@@ -2,7 +2,6 @@ We are building an AI-powered finance management app that helps users track thei
 
 Technologies Used
 
-
 Frontend:
 
 Next.js → A React framework for building fast web applications.
@@ -10,7 +9,6 @@ Next.js → A React framework for building fast web applications.
 ShadCN UI → A UI library for beautiful and modern designs.
 
 React Hook Form & Zod → Used to manage and validate forms.
-
 
 Backend:
 
@@ -20,16 +18,21 @@ MongoDB → Database to store user data, transactions, and accounts.
 
 Cron Jobs → Runs scheduled tasks like sending financial reports.
 
-
 AI & Security:
 
 OCR (Optical Character Recognition) → AI-based receipt scanning.
 
-Rate Limiting & Bot Protection → Security measures to prevent spam and attacks.
+Arcjet → Protects the app from bots, abuse, and API attacks with:
 
+✅ Bot Protection – Blocks automated spam and abuse.
 
+✅ Rate Limiting – Prevents excessive API requests.
 
-Key Features ----->
+✅ API Security – Monitors and protects sensitive data.
+
+✅ Threat Analytics – Tracks security risks in real-time.
+
+Key Features
 
 ✅ Smart Expense Tracking → Users can add and categorize transactions.
 
@@ -45,4 +48,4 @@ Key Features ----->
 
 ✅ Multi-Account Support → Track multiple bank accounts and transactions.
 
-✅ Secure Authentication → Google Sign-In and bot protection for security.
+✅ Secure Authentication → Google Sign-In and Arcjet bot protection for security.
