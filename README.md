@@ -1,4 +1,3 @@
-What We Are Doing
 We are building an AI-powered finance management app that helps users track their income, expenses, and budgets across multiple accounts. It includes smart features like AI receipt scanning, automatic categorization of transactions, and financial insights via email.
 
 Technologies Used
@@ -17,7 +16,7 @@ AI & Security:
 OCR (Optical Character Recognition) → AI-based receipt scanning.
 Rate Limiting & Bot Protection → Security measures to prevent spam and attacks.
 
-Key Features
+Key Features ----->
 ✅ Smart Expense Tracking → Users can add and categorize transactions.
 ✅ AI-Powered Receipt Scanning → Upload a receipt, and AI fills in details.
 ✅ Budget Management → Set monthly budgets and receive alerts when exceeding limits.
