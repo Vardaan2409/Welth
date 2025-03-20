@@ -1,5 +1,7 @@
 We are building an AI-powered finance management app that helps users track their income, expenses, and budgets across multiple accounts. It includes smart features like AI receipt scanning, automatic categorization of transactions, and financial insights via email.
 
+
+
 Technologies Used
 
 Frontend:
@@ -31,6 +33,9 @@ Arcjet → Protects the app from bots, abuse, and API attacks with:
 ✅ API Security – Monitors and protects sensitive data.
 
 ✅ Threat Analytics – Tracks security risks in real-time.
+
+
+
 
 Key Features
 
