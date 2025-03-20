@@ -3,16 +3,19 @@ We are building an AI-powered finance management app that helps users track thei
 Technologies Used
 
 Frontend:
+
 Next.js → A React framework for building fast web applications.
 ShadCN UI → A UI library for beautiful and modern designs.
 React Hook Form & Zod → Used to manage and validate forms.
 
 Backend:
+
 Node.js & Express.js → The server that handles requests.
 MongoDB → Database to store user data, transactions, and accounts.
 Cron Jobs → Runs scheduled tasks like sending financial reports.
 
 AI & Security:
+
 OCR (Optical Character Recognition) → AI-based receipt scanning.
 Rate Limiting & Bot Protection → Security measures to prevent spam and attacks.
 
