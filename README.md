@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+We are building an AI-powered finance management app that helps users track their income, expenses, and budgets across multiple accounts. It includes smart features like AI receipt scanning, automatic categorization of transactions, and financial insights via email.
 
-## Getting Started
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Technologies Used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Frontend:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Next.js → A React framework for building fast web applications.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+ShadCN UI → A UI library for beautiful and modern designs.
 
-## Learn More
+React Hook Form & Zod → Used to manage and validate forms.
 
-To learn more about Next.js, take a look at the following resources:
+Backend:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Node.js & Express.js → The server that handles requests.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+MongoDB → Database to store user data, transactions, and accounts.
 
-## Deploy on Vercel
+Cron Jobs → Runs scheduled tasks like sending financial reports.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+AI & Security:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+OCR (Optical Character Recognition) → AI-based receipt scanning.
+
+Arcjet → Protects the app from bots, abuse, and API attacks with:
+
+✅ Bot Protection – Blocks automated spam and abuse.
+
+✅ Rate Limiting – Prevents excessive API requests.
+
+✅ API Security – Monitors and protects sensitive data.
+
+✅ Threat Analytics – Tracks security risks in real-time.
+
+
+
+
+Key Features
+
+✅ Smart Expense Tracking → Users can add and categorize transactions.
+
+✅ AI-Powered Receipt Scanning → Upload a receipt, and AI fills in details.
+
+✅ Budget Management → Set monthly budgets and receive alerts when exceeding limits.
+
+✅ Recurring Transactions → Automatically tracks salaries, subscriptions, etc.
+
+✅ Financial Insights via Email → Monthly AI-generated spending reports.
+
+✅ Interactive Dashboards → Charts and graphs to visualize spending.
+
+✅ Multi-Account Support → Track multiple bank accounts and transactions.
+
+✅ Secure Authentication → Google Sign-In and Arcjet bot protection for security.
