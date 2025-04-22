@@ -62,7 +62,7 @@ const AccountCard = ({ account }) => {
                             {type.charAt(0) + type.slice(1).toLowerCase()} Account
                         </p>
                     </CardContent>
-                    <CardFooter className="mt-5">
+                    <CardFooter className="mt-5 flex items-center justify-between">
                         <div className='flex items-center'>
                             <ArrowUpRight className='mr-1 h-4 w-4 text-green-500' />
                             Income

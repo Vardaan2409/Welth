@@ -130,7 +130,7 @@ export async function bulkDeleteTransactions(transactionId) {
         }, {});
 
         //Delete transctions and update account balances in a transaction
-        await db.$transction(async (tx) => {  //here, transaction is a keyword in prisma db
+        await db.$transaction(async (tx) => {  //here, transaction is a keyword in prisma db
             //Delete transactions
             await tx.transaction.deleteMany({
                 where: {
